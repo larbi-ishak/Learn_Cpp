@@ -14,7 +14,9 @@ int main()
     cout << schools << endl;
     cout << &schools[0] << endl;
     cout << &schools[1] << endl;
+    cout << &schools[2] << endl;
     cout << schools[0] << endl;
+    cout << sizeof(schools[0])/8 << " Bytes" << endl;
 
     return 0;
 }
